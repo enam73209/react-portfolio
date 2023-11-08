@@ -20,7 +20,7 @@ const Layout =(props)=> {
                             <li><NavLink to={'/contact/'}>Contact</NavLink></li>
                         </ul>
                         </div>
-                        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                        <a className="btn btn-ghost normal-case text-xl">React-PortFolio</a>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
