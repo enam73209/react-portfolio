@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from "../Layout/Layout.jsx";
 
-const Service = () => {
+const ServicePage = () => {
     return (
         <div>
             <Layout>
@@ -11,4 +11,4 @@ const Service = () => {
     );
 };
 
-export default Service;
+export default ServicePage;

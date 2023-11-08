@@ -4,7 +4,7 @@ import {LatestBlogPost} from "../APIRequests/APIRequest.js";
 import BlogList from "../component/BlogList.jsx";
 import Loader from "../component/Loader.jsx";
 
-const Blog = () => {
+const BlogPage = () => {
     const[Allposts,setAllposts] = useState([]);
 
     useEffect(() => {
@@ -28,4 +28,4 @@ const Blog = () => {
     );
 };
 
-export default Blog;
+export default BlogPage;

@@ -1,14 +1,14 @@
 import React from 'react';
 import Layout from "../Layout/Layout.jsx";
 
-const About = () => {
+const ProjectPage = () => {
     return (
         <div>
             <Layout>
-                <h1>I am About Page</h1>
+                <h1>I am Project Page</h1>
             </Layout>
         </div>
     );
 };
 
-export default About;
+export default ProjectPage;
