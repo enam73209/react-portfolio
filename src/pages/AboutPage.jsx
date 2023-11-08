@@ -8,7 +8,7 @@ import FaceBook from '../assets/images/facebook.svg'
 
 
 const AboutPage = () => {
-    const[Name,setName]=useState("Md Enamul Haque");
+    const[Name,setName]=useState("Lionel Messi");
 
     const NameChangeHandler = ()=>{
         const Name = prompt("Input a Name")

@@ -50,7 +50,7 @@ const Layout =(props)=> {
 
 
                 <div>
-                    <footer className="footer items-center p-4 bg-neutral text-neutral-content">
+                    <footer className="footer  items-center p-4 bg-neutral text-neutral-content">
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:place-self-center">
                             <aside className="items-center">
                                 <svg

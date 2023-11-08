@@ -1,0 +1,18 @@
+/* Define a CSS class for the card */
+.my-card {
+    /* Your default card styles */
+    background-color: #f0f0f0;
+    transition: transform 0.2s; /* Add a transform transition for smooth effect */
+}
+
+/* Define a CSS keyframes animation for the beat effect */
+@keyframes beat {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Apply the beat animation on hover */
+.my-card:hover {
+    animation: beat 1s infinite; /* Apply the beat animation infinitely on hover */
+}
