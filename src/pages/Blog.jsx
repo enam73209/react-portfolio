@@ -1,11 +1,28 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Layout from "../Layout/Layout.jsx";
+import {LatestBlogPost} from "../APIRequests/APIRequest.js";
+import BlogList from "../component/BlogList.jsx";
+import Loader from "../component/Loader.jsx";
 
 const Blog = () => {
+    const[Allposts,setAllposts] = useState([]);
+
+    useEffect(() => {
+        (async ()=>{
+            let result = await LatestBlogPost();
+            console.log(result);
+             setAllposts(result);
+        })()
+    }, []);
+
     return (
         <div>
             <Layout>
-                <h1>I am Blog Page</h1>
+                {Allposts.length===0 ? <Loader/>
+                    :
+                    <BlogList posts = {Allposts}/>
+                }
+
             </Layout>
         </div>
     );
