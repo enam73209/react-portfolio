@@ -8,7 +8,7 @@ const HomePageCover = () => {
                 backgroundSize: 'cover',   // Cover the container
                 backgroundPosition: 'center', // Center the background image
             }}>
-                <div className="hero-overlay bg-opacity-60"></div>
+                <div className="hero-overlay bg-opacity-65"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
                         <h1 className="mb-5 text-5xl font-bold">Hi,This is  Enam</h1>
