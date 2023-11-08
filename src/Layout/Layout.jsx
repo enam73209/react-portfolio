@@ -5,7 +5,7 @@ const Layout =(props)=> {
  
         return (
             <div>
-                <div className="navbar  shadow bg-base-100">
+                <div className="navbar fixed z-50 top-0  shadow bg-base-100">
                     <div className="navbar-start">
                         <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -27,7 +27,16 @@ const Layout =(props)=> {
                             <li><NavLink to={'/'}>Home</NavLink></li>
                             <li><NavLink to={'/service/'}>Service</NavLink></li>
                             <li><NavLink to={'/about/'}>About</NavLink></li>
-                            <li><NavLink to={'/projects/'}>Project</NavLink></li>
+                            <li tabIndex={0}>
+                                <details>
+                                    <summary><NavLink to={'/projects/'}>Project</NavLink></summary>
+                                    <ul className="p-2">
+                                        <li><NavLink to={'/projects/101'}>Mobile Application</NavLink></li>
+                                        <li><NavLink to={'/projects/102'}>Desktop Application</NavLink></li>
+                                        <li><NavLink to={'/projects/103'}>Graphics Design</NavLink></li>
+                                    </ul>
+                                </details>
+                            </li>
                             <li><NavLink to={'/blog/'}>Blog</NavLink></li>
                             <li><NavLink to={'/contact/'}>Contact</NavLink></li>
                         </ul>

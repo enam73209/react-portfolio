@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "categoryId": 101,
+    "img": "/src/assets/images/projects/mobile/1.jpg",
+    "title": "Mobile Application",
+    "des": "A mobile application or app is a computer program or software application designed to run on a mobile device such as a phone, tablet, or watch."
+  },
+  {
+    "id": 2,
+    "categoryId": 102,
+    "img": "/src/assets/images/projects/desktop/1.jpg",
+    "title": "Desktop Application",
+    "des": "An application program (software application, or application, or app for short) is a computer program designed to carry out a specific task other than one relating to the operation of the computer itself,[1] typically to be used by end-users."
+  },
+  {
+    "id": 3,
+    "categoryId": 103,
+    "img": "/src/assets/images/projects/graphics/1.jpg",
+    "title": "Graphics Design",
+    "des": "Graphic design is a profession,[2] academic discipline[3][4][5] and applied art whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives"
+  },
+  {
+    "id": 4,
+    "categoryId": 101,
+    "img": "/src/assets/images/projects/mobile/2.jpg",
+    "title": "Mobile Application",
+    "des": "A mobile application or app is a computer program or software application designed to run on a mobile device such as a phone, tablet, or watch."
+  },
+  {
+    "id": 5,
+    "categoryId": 102,
+    "img": "/src/assets/images/projects/desktop/2.jpg",
+    "title": "Desktop Application",
+    "des": "An application program (software application, or application, or app for short) is a computer program designed to carry out a specific task other than one relating to the operation of the computer itself,[1] typically to be used by end-users."
+  },
+  {
+    "id": 6,
+    "categoryId": 103,
+    "img": "/src/assets/images/projects/graphics/2.jpg",
+    "title": "Graphics Design",
+    "des": "Graphic design is a profession,[2] academic discipline[3][4][5] and applied art whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives"
+  },
+  {
+    "id": 7,
+    "categoryId": 101,
+    "img": "/src/assets/images/projects/mobile/3.jpg",
+    "title": "Mobile Application",
+    "des": "A mobile application or app is a computer program or software application designed to run on a mobile device such as a phone, tablet, or watch."
+  },
+  {
+    "id": 8,
+    "categoryId": 102,
+    "img": "/src/assets/images/projects/desktop/3.jpg",
+    "title": "Desktop Application",
+    "des": "An application program (software application, or application, or app for short) is a computer program designed to carry out a specific task other than one relating to the operation of the computer itself,[1] typically to be used by end-users."
+  },
+  {
+    "id": 9,
+    "categoryId": 103,
+    "img": "/src/assets/images/projects/graphics/3.jpg",
+    "title": "Graphics Design",
+    "des": "Graphic design is a profession,[2] academic discipline[3][4][5] and applied art whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives"
+  },
+  {
+    "id": 10,
+    "categoryId": 101,
+    "img": "/src/assets/images/projects/mobile/4.jpg",
+    "title": "Mobile Application",
+    "des": "A mobile application or app is a computer program or software application designed to run on a mobile device such as a phone, tablet, or watch."
+  },
+  {
+    "id": 11,
+    "categoryId": 102,
+    "img": "/src/assets/images/projects/desktop/4.jpg",
+    "title": "Desktop Application",
+    "des": "An application program (software application, or application, or app for short) is a computer program designed to carry out a specific task other than one relating to the operation of the computer itself,[1] typically to be used by end-users."
+  },
+  {
+    "id": 12,
+    "categoryId": 103,
+    "img": "/src/assets/images/projects/graphics/4.jpg",
+    "title": "Graphics Design",
+    "des": "Graphic design is a profession,[2] academic discipline[3][4][5] and applied art whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives"
+  },
+  {
+    "id": 13,
+    "categoryId": 101,
+    "img": "/src/assets/images/projects/mobile/5.jpg",
+    "title": "Mobile Application",
+    "des": "A mobile application or app is a computer program or software application designed to run on a mobile device such as a phone, tablet, or watch."
+  },
+  {
+    "id": 14,
+    "categoryId": 102,
+    "img": "/src/assets/images/projects/desktop/5.jpg",
+    "title": "Desktop Application",
+    "des": "An application program (software application, or application, or app for short) is a computer program designed to carry out a specific task other than one relating to the operation of the computer itself,[1] typically to be used by end-users."
+  }
+
+
+]
+
+
+
+
+

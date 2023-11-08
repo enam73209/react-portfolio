@@ -6,6 +6,7 @@ import Instagram from '../assets/images/instagram.svg'
 import FaceBook from '../assets/images/facebook.svg'
 
 
+
 const AboutPage = () => {
     const[Name,setName]=useState("Md Enamul Haque");
 
@@ -45,7 +46,7 @@ const AboutPage = () => {
                                 <h1 className="text-5xl font-bold" style={{ display: 'inline' }}>
                                     {Name}
                                 </h1>
-                                <button onClick={NameChangeHandler} className="btn btn-primary" style={{ display: 'inline', verticalAlign: 'middle' }}>
+                                <button onClick={NameChangeHandler} className="btn btn-default" style={{ display: 'inline', verticalAlign: 'middle' }}>
                                     {/*<FontAwesomeIcon icon="fa-sharp fa-light fa-user-pen" beat style={{color: "#22511f",}} />*/}
                                     <img src={EditIcon} alt="Edit Icon" width="24" height="24" style={{ verticalAlign: 'middle',color: "#22511f" }} />
                                 </button>

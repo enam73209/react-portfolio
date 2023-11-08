@@ -7,6 +7,7 @@ import ProjectPage from "./pages/ProjectPage.jsx";
 import BlogPage from "./pages/BlogPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import {Route} from "react-router-dom";
+import ProjcectByCatPage from "./pages/ProjcectByCatPage.jsx";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
               <Route path='/' element={<HomePage/>}/>
               <Route path='/service/' element={<ServicePage/>}/>
               <Route path='/about/' element={<AboutPage/>}/>
+              <Route path='/projects/:CategoryID' element={<ProjcectByCatPage/>}/>
               <Route path='/projects/' element={<ProjectPage/>}/>
               <Route path='/blog/' element={<BlogPage/>}/>
               <Route path='/contact/' element={<ContactPage/>}/>

@@ -1,11 +1,14 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Layout from "../Layout/Layout.jsx";
+import jsonData from "../projects.json";
+import ProjectList from "../component/ProjectList.jsx";
 
 const ProjectPage = () => {
+    const[JsonData,setJsonData]=useState(jsonData);
     return (
         <div>
             <Layout>
-                <h1>I am Project Page</h1>
+               <ProjectList data={JsonData}/>
             </Layout>
         </div>
     );
